@@ -1,0 +1,63 @@
+{
+    "name": "asm_8048",
+    "displayName": "ASM8048",
+    "description": "Assembly for intel8048 - Odyssey2/Videopac",
+    "version": "0.0.1",
+    "publisher": "giogu75",
+    "icon": "images/icon.png",
+    "author": {
+        "name": "giogu75"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/9176324/masm.git"
+    },
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Formatters",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ASM8048",
+                "aliases": [
+                    "asm",
+                    "a48"
+                ],
+                "extensions": [
+                    ".asm",
+                    ".a48"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ASM8048",
+                "scopeName": "source.asm, source.a48",
+                "path": "./syntaxes/asm8048.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "ASM8048",
+                "scopeName": "source.asm, source.a48",
+                "path": "./snippets/flow.json"
+            },
+            {
+                "language": "ASM8048",
+                "scopeName": "source.asm, source.a48",
+                "path": "./snippets/macro.json"
+            },
+            {
+                "language": "ASM8048",
+                "scopeName": "source.asm, source.a48",
+                "path": "./snippets/segment.json"
+            }
+        ]
+    }
+}
