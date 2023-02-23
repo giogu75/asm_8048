@@ -1,6 +1,6 @@
-# Microsoft Macro Assembler Language Support
+# ASSEMBLY FOR INTEL 8048
 
-This extension provides Microsoft Macro Assembler language support for Visual Studio Code
+This extension provides ASM8048 language support for Visual Studio Code
 
 ## Features
 
