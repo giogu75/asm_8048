@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/9176324/masm.git"
+        "url": "https://github.com/giogu75/asm_8048.git"
     },
     "engines": {
         "vscode": "^1.23.0"
